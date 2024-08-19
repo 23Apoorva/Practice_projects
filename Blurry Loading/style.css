@@ -1,0 +1,28 @@
+*{
+      box-sizing: border-box;
+}
+
+body{
+      font-family: sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden; 
+      margin: 0px;
+}
+
+.bg{
+      background: url("mary-skrynnikova--0jjotvhxX4-unsplash.jpg") no-repeat center center/cover;
+      position:absolute;
+      width: 100%;
+      height:100%;
+      z-index: -1;
+      filter: blur(0px);
+
+
+} 
+.loading-img{
+      font-size: 50px;
+      color: #fff;
+}
